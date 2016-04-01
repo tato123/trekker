@@ -30,8 +30,11 @@ import trekker from 'trekker'
 var trekker = require('trekker'); 
 ```
 
+#Copyright
 
-## License
+Copyright © 2016
 
-MIT License
+#License
+
+trekker is under MIT license - http://www.opensource.org/licenses/mit-license.php
 
