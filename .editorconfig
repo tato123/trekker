@@ -1,13 +1,22 @@
+# EditorConfig helps developers define and maintain consistent
+# coding styles between different editors and IDEs
 # editorconfig.org
+
 root = true
 
+# Change these settings to your own preference
 [*]
 indent_style = space
 indent_size = 4
+
+# We recommend you to keep these unchanged
+[{*.js, **/*.js}]
 end_of_line = lf
 charset = utf-8
 trim_trailing_whitespace = true
 insert_final_newline = true
+indent_brace_style = K&R
+quote_type = single
 
-[*.markdown, *.md]
+[*.md]
 trim_trailing_whitespace = false
